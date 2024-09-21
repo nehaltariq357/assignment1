@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homeContainer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.childContainer{
+  font-weight: 900;
+  height: 250px;
+  font-size: 80px;
+  margin: 40px;
+  width: fit-content;
+}
+
+.pinkColor{
+  color: rgb(237, 4, 42);
+}
